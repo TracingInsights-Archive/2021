@@ -1,4 +1,4 @@
-  name: LappyTimey
+name: LappyTimey
 
 on:
   workflow_dispatch:
