@@ -46,9 +46,9 @@ TARGET_EVENT_NAMES_LIST = [
     # 'Hungarian Grand Prix', 
     # 'Italian Grand Prix',
     # 'Mexico City Grand Prix', 
-    'Monaco Grand Prix',
-    'Portuguese Grand Prix',
-    'Qatar Grand Prix', 
+    # 'Monaco Grand Prix',
+    # 'Portuguese Grand Prix',
+    # 'Qatar Grand Prix', 
     'Russian Grand Prix',
     'Saudi Arabian Grand Prix', 
     'Spanish Grand Prix',  
@@ -71,13 +71,13 @@ AVAILABLE_SESSIONS = [
 ]
 # Select one or more sessions from AVAILABLE_SESSIONS.
 TARGET_SESSIONS = [
-    # "Practice 1",
-    # "Practice 2",
-    # "Practice 3",
-    # "Qualifying",
-    # "Sprint Qualifying",
+    "Practice 1",
+    "Practice 2",
+    "Practice 3",
+    "Qualifying",
+    "Sprint Qualifying",
     # "Sprint",
-    "Race",
+    # "Race",
 ]
 invalid_target_sessions = sorted(set(TARGET_SESSIONS) - set(AVAILABLE_SESSIONS))
 if invalid_target_sessions:
